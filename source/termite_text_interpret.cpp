@@ -18,10 +18,6 @@ void text_interpret::grabString(termite::termite_String& str){
     data = str.returnCharacters();
 }
 
-void text_interpret::findFunc(){
-    
-}
-
 bool text_interpret::isSin(std::unique_ptr<termite::termite_String>& inString){
     std::string test = inString->returnCharacters();
     if(test.compare("sin") == 0){return true;}

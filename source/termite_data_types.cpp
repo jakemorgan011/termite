@@ -10,10 +10,3 @@
 
 #include "termite_data_types.h"
 
-using namespace termite;
-
-class termite_String{
-    termite_String();
-    
-    ~termite_String();
-};
